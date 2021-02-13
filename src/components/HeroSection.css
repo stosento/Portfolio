@@ -18,21 +18,26 @@ video {
     padding: 40px;
 }
 
-@media screen and (max-width: 1024px){
-    .img-wrapper {
-        height: 200px;
-    }
-}
-.fillwidth {
-    width: 100%;
-}
-
 .text-container {
     width: 90%;
     font-size: 1.3em;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+    .img-wrapper {
+        height: 200px;
+    }
+
+    .text-container {
+        width: 80%;
+        font-size: 1.8em;
+    }
+}
+.fillwidth {
+    width: 100%;
 }
 
 #text-wrapper a:link, a:visited{
@@ -58,6 +63,8 @@ video {
 
 #profile {
     height: 100%;
+    border: 5px solid rgb(85, 85, 85);
+    border-radius: 500px;
 }
 
 #body-text {
