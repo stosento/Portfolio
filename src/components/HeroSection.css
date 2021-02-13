@@ -1,0 +1,78 @@
+.body {
+    background-color: #f9f8eb
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 40px;
+}
+
+@media screen and (max-width: 1024px){
+    .img-wrapper {
+        height: 200px;
+    }
+}
+.fillwidth {
+    width: 100%;
+}
+
+.text-container {
+    width: 90%;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-wrapper a:link, a:visited{
+    background-color: #e9f771;
+    text-decoration: none;
+    color: #2a3142;
+}
+/* 
+.anch a:link, a:visited {
+    background-color: #e9f771;
+    text-decoration: none;
+    color: #2a3142;
+} */
+
+.script {
+    font-family: 'Yesteryear', cursive;
+}
+
+#text-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#profile {
+    height: 100%;
+}
+
+#body-text {
+    line-height: 200%;
+    text-align: justify;
+    font-variant-caps: all-small-caps;
+}
+
+.hero-container {
+    /* background: url('/src/images/img-home.jpg') center center/cover no-repeat; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: insert 0 0 0 1000px rgba(0,0,0,0,2);
+    object-fit: contain;
+}
