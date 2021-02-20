@@ -1,9 +1,11 @@
-import './App.css';
-import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css'
+
+import Navbar from './components/Navbar';
 import Home from './components/pages/Home'
+import Resume from './components/pages/Resume'
 import Footer from './components/Footer';
+
+import './App.css'
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Navbar/>
         <Switch>
           <Route path="/" exact component={Home}/>
+          <Route path="/resume" exact component={Resume}/>
         </Switch>
         <Footer/>
       </Router>
