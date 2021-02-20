@@ -29,7 +29,7 @@ function Nav() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' id='nav-logo' onClick={closeMobileMenu}>
-                        <i className='fas fa-terminal'/> Stephen Osentoski
+                        <i className='fas fa-street-view'/> Stephen Osentoski
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -50,13 +50,13 @@ function Nav() {
                                 Videos
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to='/email' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Reach Out
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'> Reach Out </Button>}
+                    {/* {button && <Button buttonStyle='btn--outline'> Reach Out </Button>} */}
                 </div>
             </nav>
         </>

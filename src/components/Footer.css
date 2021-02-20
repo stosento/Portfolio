@@ -1,0 +1,14 @@
+.footer-container {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.3rem;
+}
+
+.footer-icon  {
+    margin: 0 2px 0 2px;
+    color: #000000
+}
+
+.anch a:link, a:visited{
+    text-decoration: none;
+}

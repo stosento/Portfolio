@@ -19,8 +19,8 @@ video {
 }
 
 .text-container {
-    width: 90%;
-    font-size: 1.3em;
+    width: 80%;
+    font-size: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,12 +45,12 @@ video {
     text-decoration: none;
     color: #2a3142;
 }
-/* 
+
 .anch a:link, a:visited {
     background-color: #e9f771;
     text-decoration: none;
     color: #2a3142;
-} */
+}
 
 .script {
     font-family: 'Yesteryear', cursive;
@@ -71,6 +71,12 @@ video {
     line-height: 200%;
     text-align: justify;
     font-variant-caps: all-small-caps;
+}
+
+@media screen and (max-width: 768px) {
+    #body-text {
+        line-height: 150%;
+    }
 }
 
 .hero-container {
