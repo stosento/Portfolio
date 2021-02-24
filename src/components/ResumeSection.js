@@ -1,6 +1,6 @@
 import React from 'react';
 import './ResumeSection.css';
-import background from '../images/background.jpeg';
+import background from '../images/test.jpg';
 
 function ResumeSection() {
     return (
