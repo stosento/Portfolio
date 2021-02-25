@@ -29,13 +29,41 @@ function ResumeSection() {
                     <h2>Experience</h2>
                 </div>
                 <div className='section-content'>
-                    <div className='experience-header'>
-                    <h3>AVATRIA</h3>
-                    <h4></h4>
+                    <div className='experience-section'>
+                        <div className='experience-header'>
+                            <h3>AVATRIA</h3>
+                        </div>
+                        <h4>APPLICATION ARCHITECT | JULY 2016 - PRESENT</h4>
+                        <div className='experience-content'>
+                            <div className='project-header'>
+                                <h4>B2B WIRE & CABLE SUPPLIER</h4>
+                            </div>
+                            <div className='project-subheader'>
+                                <h5>SAP COMMERCE 1905</h5>
+                            </div>
+                            <div className='project-content'>
 
+                            </div>
+                            <ul>
+                                <li>Facilitated upgrade from SAP Commerce v6.7 to v1905.</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className='experience-content'>
-                        
+
+                    <div className='experience-section'>
+                        <div className='experience-header'>
+                            <h3>RAZORFISH COMMERCE</h3>
+                        </div>
+                        <h4>SOFTWARE ENGINEER | JUNE 2015 - JUNE 2016</h4>
+                        <div className='experience-content'>
+                            <div className='project-header'>
+                                B2B WIRE & CABLE SUPPLIER
+                            </div>
+                            <div className='project-content'>
+
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
