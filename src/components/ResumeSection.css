@@ -92,7 +92,21 @@
     margin: 16px;
 }
 
-.experience-sub
+.skill-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 48px;
+}
+
+ .skill-logo {
+    max-height: 180px;
+    object-fit: contain;
+    flex: 1;
+    margin-right: 24px;
+ }
 
 #img-sidebar > img{
     flex-shrink: 0;

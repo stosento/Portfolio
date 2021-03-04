@@ -2,6 +2,13 @@ import React from 'react';
 import './ResumeSection.css';
 import background from '../images/test.jpg';
 
+import sap from '../images/sap-commerce.png';
+import spring from '../images/java-spring.png';
+import python from '../images/python.png';
+import react from '../images/react.png';
+import jekyll from '../images/jekyll.png';
+import solr from '../images/solr.png';
+
 function ResumeSection() {
     return (
         <div className='resume-container'>
@@ -113,7 +120,6 @@ function ResumeSection() {
                                     </ul>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -123,7 +129,16 @@ function ResumeSection() {
                     <h2>Languages & Frameworks</h2>
                 </div>
                 <div className='section-content'>
-                    
+                    <div className='skill-wrapper'>
+                        <img className='skill-logo' src={sap}></img>
+                        <img className='skill-logo' src={spring}></img>
+                        <img className='skill-logo' src={solr}></img>
+                    </div>
+                    <div className='skill-wrapper'>
+                        <img className='skill-logo' src={python}></img>
+                        <img className='skill-logo' src={jekyll}></img>
+                        <img className='skill-logo' src={react}></img>
+                    </div>
                 </div>
             </div>
         </div>
