@@ -29,7 +29,7 @@ function Nav() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' id='nav-logo' onClick={closeMobileMenu}>
-                        <i className='fas fa-street-view'/> Stephen Osentoski
+                        <i className='fas fa-street-view'/> STEPHEN OSENTOSKI
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
