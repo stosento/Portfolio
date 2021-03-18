@@ -1,0 +1,17 @@
+.video-container {
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.video-container > h2 {
+    font-size: 1.3em;
+    color: #aaa;
+    text-transform: uppercase;
+}

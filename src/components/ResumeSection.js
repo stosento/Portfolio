@@ -96,7 +96,7 @@ function ResumeSection() {
                         <div className='experience-content'>
                             <div className='project'>
                                 <div className='project-header'>
-                                    <h4>B2C | Enterprise Software Retailer</h4>
+                                    <h4>B2C | ENTERPRISE SOFTWARE RETAILER</h4>
                                     <h5>HYBRIS v5.7</h5>
                                 </div>
                                 <div className='project-content'>
@@ -109,7 +109,7 @@ function ResumeSection() {
                             </div>
                             <div className='project'>
                                 <div className='project-header'>
-                                    <h4>B2C | Arts & Crafts Retailer</h4>
+                                    <h4>B2C | ARTS & CRAFTS RETAILER</h4>
                                     <h5>HYBRIS v5.5</h5>
                                 </div>
                                 <div className='project-content'>

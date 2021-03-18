@@ -75,7 +75,12 @@
 
 .project-content {
     margin-left: 30px;
-    font-size: 0.9em;
+    font-size: 1em;
+}
+
+.project-description > ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .experience-header {
