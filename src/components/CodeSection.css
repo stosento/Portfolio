@@ -73,7 +73,7 @@
 }
 
 .project-description > a {
-    opacity: 50%
+    opacity: 0.5;
 }
 
 .vertical-line {
