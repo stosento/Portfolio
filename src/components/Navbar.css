@@ -64,8 +64,11 @@
   height: 80px;
 }
 
+.nav-item > a:visited {
+  color: white;
+}
+
 .nav-links {
-  color: #fff;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -125,12 +128,8 @@
 
   .nav-links:hover {
     background-color: #fff;
-    color: #242424;
+    /* color: #242424; */
     border-radius: 0;
-  }
-
-  .nav-links:visited {
-    color: white;
   }
 
   .navbar-logo {

@@ -6,7 +6,7 @@ function CodeSection() {
         <div className='code-container'>
             <div className='header-section'>
                 <h2>
-                    Check out some of my more recent projects I've been working on. To get even more details on even more projects, check out my GitHub.
+                    Below are some of my personal projects. For more details, check out my GitHub.
                 </h2>
             </div>
             <div className='project-section'>
