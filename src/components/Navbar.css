@@ -129,6 +129,10 @@
     border-radius: 0;
   }
 
+  .nav-links:visited {
+    color: white;
+  }
+
   .navbar-logo {
     position: absolute;
     color: #ffffff;
