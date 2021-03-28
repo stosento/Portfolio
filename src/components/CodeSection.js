@@ -12,7 +12,7 @@ function CodeSection() {
             <div className='project-section'>
                 <div className='project-title'>
                     <h3>GameClipper</h3>
-                    <h4>A python script to edit highlights for me.</h4>
+                    <h4>A script to extract game highlights from sports film.</h4>
                     <h5>Tools / Languages</h5>
                     <ul>
                         <li>Python</li>
@@ -41,7 +41,7 @@ function CodeSection() {
             <div className='project-section'>
                 <div className='project-title'>
                     <h3>Ranking vs Drafted</h3>
-                    <h4>A visualization of high school football recruit ranking against their NFL draft selection, year over year</h4>
+                    <h4>A visualization of football recruit ranking against their NFL draft selection, year over year</h4>
                     <h5>Tools / Languages</h5>
                     <ul>
                         <li>Python</li>
@@ -85,16 +85,16 @@ function CodeSection() {
                 <div className='vertical-line' id='green-line'/>
                 <div className='project-description'>
                     <p>
-                        I grew up absolutely loving the Halo video game series. Very quickly, I was drawn to the competitive play. Though I wasn't as skilled as those tip top players, my strategy & communication were what I prided myself in.
+                        Red Bull had announced a <a id='green-link' href="https://smash.gg/tournament/red-bull-rise-till-dawn-featuring-halo-3/details">Halo 3 tournament</a> in the building just a few floors above my work office in the Willis Tower. Though it had been years since I had consistently played the game, I loved to compete, and decided to enter my name.
                     </p>
                     <p>
-                        Throughout the past few years, I hadn't found the time to play as much, but when Red Bull announced a <a id='green-link' href="https://smash.gg/tournament/red-bull-rise-till-dawn-featuring-halo-3/details">Halo 3 tournament</a> in the building just a few floors above my work office, I had to compete!
+                    In competitive play, it's key to time the power weapon & power-up spawn times throughout the map during the game. Generally this timing calculation is memorized by players and greatly impacts the strategy throughout the game. At the highest level, teams have coaches to do this calculation for the players.
                     </p>
                     <p>
-                        In competitive settings, it's key to time the power weapon & power-up spawn times throughout the game. While reviewing the rules for the event, I had noticed the start time of each game was different compared to the usual ruleset. 
+                        While reviewing the rules for the event, I had noticed the start time of each game was different compared to the usual ruleset. This change would have made the manual power-up time calculation a bit more complicated for players. Thus, I created an Android application to display timers for the weapon and power-up spawn times that apply to each map & game type to give our team an advantage.
                     </p>
                     <p>
-                        As a result, I created an extremely simple Android application to display timers for each of the different map / gametypes, as each have different settings. My teammate and I placed 9th of 62 teams, which I attribute quite a bit to this application. While other teams were struggling with the timing, the application helped give us an edge over other teams who had to do the time calculations manually.
+                    My teammate and I placed 9th of 62 teams, which I attribute quite a bit to this application. While other teams were struggling with the timing, the application helped give us an edge over other teams who had to do the time calculations manually.
                     </p>
                     <a id='green-link' href="https://github.com/stosento/H3MLGTimer">See more on Github</a>
                 </div>

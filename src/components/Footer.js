@@ -16,6 +16,9 @@ function Footer() {
             <a href='https://www.twitter.com/stephentoski' target='_blank'>
                 <i className='footer-icon fab fa-twitter-square'/>
             </a>
+            <a href='https://www.youtube.com/channel/UCZBJuf_eohVzbfZmZzMIdqA' target='_blank'>
+                <i className='footer-icon fab fa-youtube-square'/>
+            </a>
         </div>
     )
 }

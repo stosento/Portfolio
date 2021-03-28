@@ -37,17 +37,17 @@ function Nav() {
                     <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
-                                Resume
+                                RESUME
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/code' className='nav-links' onClick={closeMobileMenu}>
-                                Code
+                                CODE
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/videos' className='nav-links' onClick={closeMobileMenu}>
-                                Videos
+                                VIDEOS
                             </Link>
                         </li>
                         {/* <li>

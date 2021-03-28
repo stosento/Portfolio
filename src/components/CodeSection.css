@@ -2,10 +2,15 @@
     margin: 100px;
 } */
 
+.code-container {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 .header-section {
     padding-top: 50px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 400px;
+    margin-right: 400px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
