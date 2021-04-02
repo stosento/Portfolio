@@ -29,6 +29,21 @@
     position: relative;
 }
 
+.company > h3 {
+    color: #aaa;
+}
+
+.story-container {
+    margin-top: 50px;
+}
+.story-container > h2 {
+    padding-bottom: 20px;
+}
+.story-container > p {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
 #mgofish { 
     width: 120px;
     padding-top: 5px;
