@@ -35,13 +35,33 @@ function VideoSection() {
             <div className='video-section' id='right'>
                 <div className='video-description' id='right-description'>
                     <h1 id='right-title'>GAME RECAPS</h1>
-                    <p>Using my "Game Clipper" program, I was able to quickly put together game recap videos the same day as the game itself. Being able to export the highlights immediately after the game, I simply put together a script, recorded my reaction over the highlights, and edit the video afterwards.</p>
+                    <p>Using my "Game Clipper" program, I was able to quickly put together game recap videos the same day as the game itself. Being able to export the highlights immediately after the game, I simply put together a quick outline, recorded my reaction over the highlights, and edit the video afterwards.</p>
+                    <p>Relying on a bit of humor and improv helped me drastically decrease the amount of time to produce these kinds of videos.</p>
                 </div>
                 <div className='video-embed'>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Olcgbf__j-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-
+            <div className='video-section' id='left'>
+                <div className='video-embed'>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/INhBVeBo4Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className='video-description' id='left-description'>
+                    <h1 id='left-title'>FILM ANALYSIS</h1>
+                    <p>Since 2017, I found myself more drawn to the Xs and Os of sports. Why were certain plays failing? What made certain formations successful? So, I decided to make videos breaking down plays and providing my observations.</p>
+                    <p>Using Adobe Premiere Pro, a dual-monitor set-up, and a nice illustration tool called EpicPen, I found a great set-up to record my analysis on the screen in a quick and easy fashion.</p>
+                </div>
+            </div>
+            <div className='video-section' id='right'>
+                <div className='video-description' id='right-description'>
+                    <h1 id='right-title'>RECRUIT ANALYSIS</h1>
+                    <p>Similar to my film analysis, I was also curious about what made a recruit successful from high school to college. What attributes of a quarterback can I see that will translate well to the next level?</p>
+                    <p>I also found it hard to compile ALL the information out there on a given recruit. So I started a series of videos compiling footage, stats, and information, added some commentary and analysis and a series was born.</p>
+                </div>
+                <div className='video-embed'>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2mLKPbHsYSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
             
 
             <div className='story-container'>

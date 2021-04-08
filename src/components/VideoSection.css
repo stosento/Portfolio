@@ -72,6 +72,7 @@
 #right-title {
     padding-right: 40px;
     padding-left: 10px;
+    margin-left: auto;
 }
 
 .video-description > p {
@@ -88,6 +89,7 @@
 
 #right-description > p {
     margin-right: 20px;
+    text-align: right;
 }
 
 #right {
@@ -102,6 +104,11 @@
 
 #maizenbrew {
     width: 130px;
+}
+
+.story-container > h2 {
+    text-align: center;
+    font-size: 2rem;
 }
 
 .company > img {
