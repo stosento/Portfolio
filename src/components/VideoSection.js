@@ -6,22 +6,6 @@ import maizenbrew from '../images/maizenbrew.png';
 function VideoSection() {
     return (
         <div className='video-container'>
-            <div className='company-container'>
-                <div className='company'>
-                    <a href='https://www.mgofish.com'>
-                        <img src={mgofish} id='mgofish'/>
-                    </a>
-                    <h2>MGOFISH</h2>
-                    <h3>2016 - 2020</h3>
-                </div>
-                <div className='company'>
-                    <a href='https://www.maizenbrew.com'>
-                        <img src={maizenbrew} id='maizenbrew'/>
-                    </a>
-                    <h2>MAIZE N BREW</h2>
-                    <h3>2020 - PRESENT</h3>
-                </div>
-            </div>
             <div className='video-section' id='left'>
                 <div className='video-embed'>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/JFNCEKesuiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -44,7 +28,7 @@ function VideoSection() {
             </div>
             <div className='video-section' id='left'>
                 <div className='video-embed'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/INhBVeBo4Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/INhBVeBo4Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className='video-description' id='left-description'>
                     <h1 id='left-title'>FILM ANALYSIS</h1>
@@ -59,11 +43,25 @@ function VideoSection() {
                     <p>I also found it hard to compile ALL the information out there on a given recruit. So I started a series of videos compiling footage, stats, and information, added some commentary and analysis and a series was born.</p>
                 </div>
                 <div className='video-embed'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2mLKPbHsYSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2mLKPbHsYSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-            
-
+            <div className='company-container'>
+                <div className='company'>
+                    <a href='https://www.mgofish.com'>
+                        <img src={mgofish} id='mgofish'/>
+                    </a>
+                    <h2>MGOFISH</h2>
+                    <h3>2016 - 2020</h3>
+                </div>
+                <div className='company'>
+                    <a href='https://www.maizenbrew.com'>
+                        <img src={maizenbrew} id='maizenbrew'/>
+                    </a>
+                    <h2>MAIZE N BREW</h2>
+                    <h3>2020 - PRESENT</h3>
+                </div>
+            </div>
             <div className='story-container'>
                 <h2>MY STORY</h2>
                 <p>Growing up, I was always a fan of video editing, football, and music. After the 2011 Michigan football game against Notre Dame (my second as a freshman at UofM), I was inspired to make a video about it. The atmosphere, emotion, and disbelief of it all led me to my very first sports video. It’s not very good, admittedly. 10 minutes is way too long, and it drags on. But the end is solid, and I loved editing it.</p>

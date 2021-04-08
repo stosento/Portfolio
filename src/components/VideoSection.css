@@ -1,5 +1,4 @@
 .video-container {
-    padding-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 20px;
@@ -19,6 +18,7 @@
 .company-container {
     column-count: 2;
     column-gap: 300px;
+    margin-top: 50px;
     column-rule-style: solid;
     column-rule-width: 3px;
 }
@@ -34,7 +34,7 @@
 }
 
 .story-container {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .story-container > h2 {
     padding-bottom: 20px;
@@ -92,6 +92,16 @@
     text-align: right;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    width: 80%;
+    border-top: 3px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 #right {
     margin-left: auto;
 }
@@ -109,18 +119,5 @@
 .story-container > h2 {
     text-align: center;
     font-size: 2rem;
-}
-
-.company > img {
-    /* max-height: 100%;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto; */
 }
 
