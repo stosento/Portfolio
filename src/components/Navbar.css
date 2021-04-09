@@ -30,6 +30,15 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 576px) {
+    transform: translate(5%,90%); 
+    font-size: 1.3rem; 
+  }
+
+  @media screen and (max-width: 960px) {
+  
+  }
 }
 
 .navbar-logo a{
@@ -184,5 +193,12 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-logo {
+    transform: translate(5%,85%); 
+    font-size: 1.5rem; 
   }
 }

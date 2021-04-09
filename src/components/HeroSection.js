@@ -19,7 +19,7 @@ function HeroSection() {
                     </p>
                     <p id='body-text'>
                         I'm Stephen, a Michigan-based engineer, consultant, video creator, podcaster, and college sports fanatic. I currently work at <a href="https://www.avatria.com/" target="blank">Avatria</a>
-                        , helping companies expand their ecommerce capabilities. I contribute to <a href="https://www.maizenbrew.com/" target="blank">MaizenBrew</a>, producing videos on multiple Michigan sports. 
+                        , helping companies expand their ecommerce capabilities. Additionally, I contribute to <a href="https://www.maizenbrew.com/" target="blank">MaizenBrew</a>, creating videos on Michigan sports. 
                         Take a look around to check out what I've been up to lately.
                     </p>
                 </div>
