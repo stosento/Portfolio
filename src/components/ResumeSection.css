@@ -150,3 +150,25 @@
 #bg-blue {
     background-color: #96D4D4;
 }
+
+@media screen and (max-width: 768px){
+    .content-section {
+        flex-direction: column;
+    }
+
+    #img-sidebar {
+        display: none;
+    }
+
+    .section-header {
+        max-width: 100%;
+        align-items: normal;
+    }
+    .section-header > h2 {
+        text-align: center;
+        margin: 20px;
+    }
+    .skill-logo {
+        max-height: 80px;
+    }
+}
