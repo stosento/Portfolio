@@ -3,8 +3,8 @@
 } */
 
 .code-container {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .header-section {
@@ -42,6 +42,8 @@
 
 .project-title > h3 {
     font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
     text-transform: uppercase;
     background-color: black;
     width: fit-content;
@@ -91,19 +93,23 @@
     margin-bottom: 3%;
 }
 
-#blue-link {
+.horizontal-line {
+    display: none;
+}
+
+#blue {
     color: blue;
 }
 
-#red-link {
+#red {
     color: red;
 }
 
-#purple-link {
+#purple {
     color: purple;
 }
 
-#green-link {
+#green {
     color: green;
 }
 
@@ -121,4 +127,103 @@
 
 #green-line {
     border-left: thick solid green;
+}
+
+@media screen and (max-width: 768px) {
+
+    .horizontal-line {
+        opacity: 0.3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-top: thick solid;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+    
+    .code-container {
+        margin: 0;
+    }
+
+    .header-section {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .project-section { 
+        flex-direction: column;
+    }
+
+    .project-title {
+        align-items: center;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .project-title > h4 {
+        text-align: center;
+        width:40%;
+        padding: 5px 0 10px 0;
+    }
+
+    .project-description {
+        padding: 10px 80px 10px 80px;
+    }
+
+    #blue-link {
+        text-align: center;
+    }
+    
+    #red-link {
+        text-align: center;
+    }
+    
+    #purple-link {
+        text-align: center;
+    }
+    
+    #green-link {
+        text-align: center;
+    }
+
+    #blue-line {
+        border-top: thick solid;
+        color: blue;
+    }
+    
+    #red-line {
+        border-top: thick solid red;
+    }
+    
+    #purple-line {
+        border-top: thick solid purple;
+    }
+    
+    #green-line {
+        border-top: thick solid green;
+    }
+
+    .github {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header-section {
+        padding-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .project-title > h4 {
+        width:70%;
+    }
+
+    .project-description {
+        padding: 10px 10px 10px 10px;
+    }
 }

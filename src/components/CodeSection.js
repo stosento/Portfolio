@@ -9,6 +9,7 @@ function CodeSection() {
                     Below are some of my personal projects. For more details, check out my GitHub.
                 </h2>
             </div>
+            <div className='horizontal-line' id='blue'/>
             <div className='project-section'>
                 <div className='project-title'>
                     <h3>GameClipper</h3>
@@ -35,9 +36,11 @@ function CodeSection() {
                     <p>
                         Overall, this script has cut down about 50% of my editing time, saving me considerable time in producing the content for my videos.
                     </p>
-                    <a id='blue-link' href="https://github.com/stosento/GameClipper">See more on Github</a>
+                    <a class='github' id='blue' href="https://github.com/stosento/GameClipper">See more on Github</a>
                 </div>
             </div>
+            <div className='horizontal-line' id='blue'/>
+            <div className='horizontal-line' id='red'/>
             <div className='project-section'>
                 <div className='project-title'>
                     <h3>Ranking vs Drafted</h3>
@@ -69,9 +72,11 @@ function CodeSection() {
                     <p>
                         Reading that data into appropriate data elements, I was able to easily put it into Matplotlib to create this visual.
                     </p>
-                    <a id='red-link' href="https://github.com/stosento/RecruitData">See more on Github</a>
+                    <a class='github' id='red' href="https://github.com/stosento/RecruitData">See more on Github</a>
                 </div>
             </div>
+            <div className='horizontal-line' id='red'/>
+            <div className='horizontal-line' id='green'/>
             <div className='project-section'>
                 <div className='project-title'>
                     <h3>Halo Timer</h3>
@@ -85,7 +90,7 @@ function CodeSection() {
                 <div className='vertical-line' id='green-line'/>
                 <div className='project-description'>
                     <p>
-                        Red Bull had announced a <a id='green-link' href="https://smash.gg/tournament/red-bull-rise-till-dawn-featuring-halo-3/details">Halo 3 tournament</a> in the building just a few floors above my work office in the Willis Tower. Though it had been years since I had consistently played the game, I loved to compete, and decided to enter my name.
+                        Red Bull had announced a <a id='green' href="https://smash.gg/tournament/red-bull-rise-till-dawn-featuring-halo-3/details">Halo 3 tournament</a> in the building just a few floors above my work office in the Willis Tower. Though it had been years since I had consistently played the game, I loved to compete, and decided to enter my name.
                     </p>
                     <p>
                     In competitive play, it's key to time the power weapon & power-up spawn times throughout the map during the game. Generally this timing calculation is memorized by players and greatly impacts the strategy throughout the game. At the highest level, teams have coaches to do this calculation for the players.
@@ -96,9 +101,11 @@ function CodeSection() {
                     <p>
                     My teammate and I placed 9th of 62 teams, which I attribute quite a bit to this application. While other teams were struggling with the timing, the application helped give us an edge over other teams who had to do the time calculations manually.
                     </p>
-                    <a id='green-link' href="https://github.com/stosento/H3MLGTimer">See more on Github</a>
+                    <a class='github' id='green' href="https://github.com/stosento/H3MLGTimer">See more on Github</a>
                 </div>
             </div>
+            <div className='horizontal-line' id='green'/>
+            <div className='horizontal-line' id='purple'/>
             <div className='project-section'>
                 <div className='project-title'>
                     <h3>RunMyBeat</h3>
@@ -115,9 +122,10 @@ function CodeSection() {
                     <p>
                         Coming soon
                     </p>
-                    <a id='purple-link' href="https://github.com/stosento/RunMyBeat">See more on Github</a>
+                    <a class='github' id='purple' href="https://github.com/stosento/RunMyBeat">See more on Github</a>
                 </div>
             </div>
+            <div className='horizontal-line' id='purple'/>
         </div>
     )
 }
