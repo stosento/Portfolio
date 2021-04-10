@@ -129,6 +129,12 @@
     border-left: thick solid green;
 }
 
+@media screen and (max-width: 1200px) {
+    .code-container {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .horizontal-line {

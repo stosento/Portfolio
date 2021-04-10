@@ -121,3 +121,35 @@ hr {
     font-size: 2rem;
 }
 
+@media screen and (max-width: 1200px) {
+    .video-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video-container {
+        margin: 0;
+    }
+
+    .video-section {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+
+    #right {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+
+    .story-container {
+        margin: 0 20px 0 20px;
+    }
+
+    .company-container {
+        margin: 20px 0 40px 0;
+        column-gap: 100px;
+    }
+}
