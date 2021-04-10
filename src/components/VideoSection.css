@@ -35,6 +35,7 @@
 
 .story-container {
     margin-top: 40px;
+    width: 70%;
 }
 .story-container > h2 {
     padding-bottom: 20px;
@@ -126,6 +127,10 @@ hr {
         margin-left: 50px;
         margin-right: 50px;
     }
+
+    .story-container {
+        width: 90%
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -161,6 +166,7 @@ hr {
 
     .story-container {
         margin: 0 20px 0 20px;
+        width: 90%;
     }
 
     .company-container {
