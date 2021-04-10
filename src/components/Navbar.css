@@ -41,6 +41,10 @@
   }
 }
 
+.disabled {
+  display: none;
+}
+
 .navbar-logo a{
   background-color: #e9f771;
   text-decoration: none;

@@ -1,13 +1,12 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from './Button';
 import './Navbar.css'
 
 function Nav() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
-    const handleClick = () => setClick(!click);
+    const handleClick = () => setClick(!click); 
     const closeMobileMenu = () => setClick(false);
     
     const showButton = () => {
@@ -35,17 +34,17 @@ function Nav() {
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className='nav-item'>
+                        <li className= {click ? 'nav-item' : 'nav-item disabled'}>
                             <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
                                 RESUME
                             </Link>
                         </li>
-                        <li className='nav-item'>
+                        <li className= {click ? 'nav-item' : 'nav-item disabled'}>
                             <Link to='/code' className='nav-links' onClick={closeMobileMenu}>
                                 CODE
                             </Link>
                         </li>
-                        <li className='nav-item'>
+                        <li className= {click ? 'nav-item' : 'nav-item disabled'}>
                             <Link to='/videos' className='nav-links' onClick={closeMobileMenu}>
                                 VIDEOS
                             </Link>
