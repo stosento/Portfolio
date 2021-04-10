@@ -136,6 +136,8 @@ hr {
     .video-section {
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 0;
+        padding-top: 30px;
         flex-direction: column;
     }
 

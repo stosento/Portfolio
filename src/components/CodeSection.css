@@ -133,6 +133,15 @@
     .code-container {
         margin: 0;
     }
+
+    .header-section {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .project-title {
+        padding-left: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -177,7 +186,9 @@
     }
 
     .project-description {
-        padding: 10px 80px 10px 80px;
+        padding: 10px 0 10px 0;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     #blue-link {

@@ -93,13 +93,10 @@ function CodeSection() {
                         Red Bull had announced a <a id='green' href="https://smash.gg/tournament/red-bull-rise-till-dawn-featuring-halo-3/details">Halo 3 tournament</a> in the building just a few floors above my work office in the Willis Tower. Though it had been years since I had consistently played the game, I loved to compete, and decided to enter my name.
                     </p>
                     <p>
-                    In competitive play, it's key to time the power weapon & power-up spawn times throughout the map during the game. Generally this timing calculation is memorized by players and greatly impacts the strategy throughout the game. At the highest level, teams have coaches to do this calculation for the players.
+                        While reviewing the rules for the event, I had noticed the start time of each game was different compared to the usual ruleset. This change would have made the manual weapon & power-up time calculation a bit more complicated for players. Thus, I created an Android application to display timers for the weapon and power-up spawn times that apply to each map & game type to give our team an advantage.
                     </p>
                     <p>
-                        While reviewing the rules for the event, I had noticed the start time of each game was different compared to the usual ruleset. This change would have made the manual power-up time calculation a bit more complicated for players. Thus, I created an Android application to display timers for the weapon and power-up spawn times that apply to each map & game type to give our team an advantage.
-                    </p>
-                    <p>
-                    My teammate and I placed 9th of 62 teams, which I attribute quite a bit to this application. While other teams were struggling with the timing, the application helped give us an edge over other teams who had to do the time calculations manually.
+                        My teammate and I placed 9th of 62 teams, which I attribute quite a bit to this application. While other teams were struggling with the timing, the application helped give us an edge over other teams who had to do the time calculations manually.
                     </p>
                     <a class='github' id='green' href="https://github.com/stosento/H3MLGTimer">See more on Github</a>
                 </div>
