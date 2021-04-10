@@ -139,9 +139,22 @@ hr {
         flex-direction: column;
     }
 
+    .video-embed {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video-embed > iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
     #right {
         flex-direction: column-reverse;
-        align-items: flex-end;
     }
 
     .story-container {
@@ -151,5 +164,19 @@ hr {
     .company-container {
         margin: 20px 0 40px 0;
         column-gap: 100px;
+    }
+    
+    #left-description > p {
+        margin-left: 10px;
+    }
+
+    #right-description > p {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .company-container {
+        column-gap: 50px;
     }
 }
