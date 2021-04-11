@@ -34,17 +34,17 @@ function Nav() {
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className= {click ? 'nav-item' : 'nav-item disabled'}>
+                        <li className={click || button ? 'nav-item' : 'nav-item disabled'}>
                             <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
                                 RESUME
                             </Link>
                         </li>
-                        <li className= {click ? 'nav-item' : 'nav-item disabled'}>
+                        <li className={click || button ? 'nav-item' : 'nav-item disabled'}>
                             <Link to='/code' className='nav-links' onClick={closeMobileMenu}>
                                 CODE
                             </Link>
                         </li>
-                        <li className= {click ? 'nav-item' : 'nav-item disabled'}>
+                        <li className={click || button ? 'nav-item' : 'nav-item disabled'}>
                             <Link to='/videos' className='nav-links' onClick={closeMobileMenu}>
                                 VIDEOS
                             </Link>
